@@ -1,0 +1,427 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color:white;
+    color:#616161;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+
+/* Navbar */
+  .navbar .navbar-brand  {
+    font-size:32px;
+    font-weight:700;
+} 
+
+.navbar .navbar-nav {
+    color:#555555;
+    font-size:14px;
+}
+
+
+.get-started a {
+    background-color:#3498DB;
+}
+
+/* Hero section */
+.hero {
+    margin-top:100px;
+}
+
+.hero h1 {
+    font-size:50px;
+    font-weight:700;
+    color:black;
+    margin-top:50px;
+}
+
+.hero p {
+    font-size:25px;
+    line-height: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.hero .btn {
+    border:2px solid;
+    font-family: "Raleway", sans-serif;
+    font-weight:600;
+    letter-spacing: 1px;
+    font-size:14px;
+}
+
+.hero img {
+    width:500px;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+      font-size:35px;
+    }
+  
+}
+
+/* Clients section */
+.clients {
+    background-color:#f3f9fd;
+}
+
+.clients img {
+    width:80px;
+}
+
+/* About Us */
+.aboutUs img {
+    width:700px;
+}
+
+.aboutUs ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+.aboutUs ul li {
+    margin-top:15px;
+}
+
+.aboutUs ul li i {
+    color:#3498DB;
+}
+
+.aboutUs .count h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight:bold;
+    color:#222222;
+    font-size:37px;
+}
+
+.aboutUs .count p {
+    font-family: "Raleway", sans-serif;
+    font-size:14px;
+    margin-left:50px;    
+}
+
+.aboutUs .count p span {
+    font-weight: bold;
+}
+
+.aboutUs .btn {
+    font-family: "Raleway", sans-serif;
+    font-weight:600;
+    letter-spacing: 1px;
+    border: 2px solid;
+    font-size: 14px;
+}
+
+.count i {
+    color:#3498DB;
+    font-size:35px;
+}
+
+
+/* Card section */
+.card-section .card {
+    background-color: white;
+    box-shadow:0px 2px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+}
+
+.card-section .card i{
+    font-size:28px;
+    margin-top:20px; 
+    background-color:#3498DB;
+    border-radius: 50%;
+    padding:15px;
+    color:white;
+}
+
+.card-section .card2 i{
+    font-size:28px;
+    margin-top:20px; 
+    background-color:#3498DB;
+    border-radius: 50%;
+    padding:15px 18px;
+    color:white;
+}
+
+.card .card-title {
+    margin-top:20px;
+    font-weight:700;
+    font-size:18px;
+    color:#111;
+
+}
+
+.card p {
+    font-size:14px;
+    line-height:25px;
+}
+
+@media (max-width: 768px) {
+    .card-section  .cardMargin {
+       margin-top:80px;
+    }
+    .secondCardSection  .cardMargin {
+        margin-top:80px;
+     }
+  
+}
+
+/* Second card section */
+.secondCardSection {
+    margin-top:90px;
+}
+
+.secondCardSection .card {
+    border: 1px solid white;
+    
+} 
+
+
+.secondCardSection .card .card {
+    top:130px;
+    opacity: 0.9;
+}
+
+.secondCardSection .card .card:hover {
+    opacity: 1.0;
+  }
+
+.secondCardSection .card .card p{
+   font-size:16px;
+
+}
+
+.secondCardSection .card .card a{
+    font-size:12px;
+    margin-top:10px;
+ }
+ 
+.secondCardSection .card .card a i{
+    font-size:8px;
+
+ }
+ 
+@media (max-width: 768px) {
+    .secondCardSection .card .card {
+        top:50px;
+    }
+  
+}
+
+/* Features */
+
+.features p {
+    background-color:#f6f6f6;
+    border: 1px solid white;
+    padding:25px;
+    font-weight: bold;  
+    font-size:16px;
+    display:inline-block;
+   width:250px;
+}
+
+.features p a {
+    color:black;
+}
+
+.features p:hover {
+    background-color:#eef7fc;
+}
+
+.features i {
+    font-size:25px;
+    vertical-align:middle;
+}
+
+
+/* Testimonals */
+.testimonals {
+    background-color:#F7FBFE;
+    padding-top:10px;
+    padding-bottom:80px;
+    margin-top:50px;
+}
+
+.testimonals .card {
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.testimonals h3 {
+    font-size:18px;
+    font-weight: bold;
+}
+
+.testimonals h4 {
+    font-size: 14px;
+    color:#999;
+}
+
+.testimonals .card-text i {
+    font-size: 16px;
+    color:#E1F0FA;
+}
+
+.testimonals .card-text {
+   font-style: italic;
+   font-size: 18px;
+}
+
+.testimonals .card-title {
+    color:black;
+}
+
+
+/* Portfolio */
+
+.portfolio img {
+    width:250px;
+}
+
+/* Team */
+.team {
+    background-color:#F7FBFE;
+    padding-top:20px;
+    padding-bottom:100px;
+    margin-top:100px;
+}
+
+.team .card {
+    border:none;
+}
+
+.team .card h4 {
+    font-size: 18px;
+}
+
+.team .card p {
+    font-size:13px;
+    font-weight: 400;
+    color:#aaaaaa;
+    margin-top:-5px;
+}
+
+/* Pricing */
+.pricing .card {
+    background-color:#F9F9F9;
+    border:1px solid #F9F9F9;
+} 
+
+.pricing .card2 {
+    border:2px solid #3498db;
+} 
+
+.pricing span{
+    font-size: 15px;
+    color:#CBCBCB;
+}
+
+.pricing p {
+    text-align: center;
+    font-weight: 500;
+    font-size:15px;
+}
+
+.pricing p del {
+    color:#CBCBCB;
+}
+
+.pricing h1 {
+    color: #3498DB;
+    font-family: "Open Sans", sans-serif;
+}
+
+.pricing h6 {
+    color:black;
+    font-size:18px;
+    font-weight: 600;
+}
+
+.pricing h1 sup {
+    font-size: 17px;
+  top: -15px;
+  left: 5px;
+  font-weight: 600;
+}
+
+.pricing .btn {
+    margin-left:110px;
+    margin-right:110px;
+    border:2px solid;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+
+/* FAQ */
+
+.FAQ i{
+    font-size:20px;
+    color:#8bc4ea;
+}
+
+.FAQ h4 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.FAQ p {
+    font-size: 15px;
+}
+
+.FAQ {
+    margin-top:100px;
+}
+
+/* CONTACT US */
+
+.contactUs {
+    margin-top:100px;
+}
+
+.contactUs h3 {
+    color:black;
+    font-weight:700;
+}
+
+.contactUs p {
+    font-size:14px;
+    color:gray;
+}
+
+.contactUs i {
+    font-size:25px;
+    margin-left: 10px;
+    color:#3498DB;
+}
+
+.contactUsPart {
+    margin-top: 20px;
+    line-height: 15px;
+}
+
+.contactUsPart ul {
+    list-style: none;
+}
+
+.contactUsPart ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.contactUsPart ul li i{
+    margin-right: 15px;
+}
+
+.contactUs form button {
+    font-size:14px;
+}
+
+
+
+
+
